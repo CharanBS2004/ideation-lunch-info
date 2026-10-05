@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IDEATION 2026 - Official Lunch Menu | BMSCE</title>
+  <meta name="description" content="Official Lunch Menu for IDEATION 2026 hosted by Department of Computer Applications, BMSCE in association with IIT Bombay." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="page-wrapper">
+
+    <!-- Pure CSS Filtering Radio Inputs (Hidden) -->
+    <input type="radio" name="menu-category" id="cat-all" class="filter-radio" checked />
+    <input type="radio" name="menu-category" id="cat-rice" class="filter-radio" />
+    <input type="radio" name="menu-category" id="cat-dal" class="filter-radio" />
+    <input type="radio" name="menu-category" id="cat-sides" class="filter-radio" />
+    <input type="radio" name="menu-category" id="cat-dessert" class="filter-radio" />
+
+    <!-- Hero Header Banner Card -->
+    <header class="header-card">
+      <div class="header-top">
+        <div class="institution-info">
+          <span class="college-name">BMS College of Engineering</span>
+          <span class="dept-name">Department of Computer Applications</span>
+        </div>
+        
+        <div class="collaboration-badge">
+          <svg viewBox="0 0 24 24" class="star-icon">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+          In Association with IIT Bombay
+        </div>
+      </div>
+
+      <div class="event-title-group">
+        <h1 class="event-title">IDEATION 2026</h1>
+        <div class="event-subtitle">Official Event Lunch Menu</div>
+      </div>
+    </header>
+
+    <!-- Event Quick Info Grid Bar -->
+    <section class="info-bar" aria-label="Event Details">
+      
+      <div class="info-card">
+        <div class="info-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+        </div>
+        <div class="info-details">
+          <span class="info-label">Event Date</span>
+          <span class="info-value">07-10-2026</span>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <div class="info-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+        </div>
+        <div class="info-details">
+          <span class="info-label">Lunch Time</span>
+          <span class="info-value">1:30 PM – 2:30 PM</span>
+        </div>
+      </div>
+
+      <div class="info-card">
+        <div class="info-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+            <circle cx="12" cy="10" r="3"></circle>
+          </svg>
+        </div>
+        <div class="info-details">
+          <span class="info-label">Lunch Venue</span>
+          <span class="info-value">MPH Hall, Backgate</span>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Main Content & Interactive Pure CSS Category Controls -->
+    <main>
+      
+      <div class="controls-container">
+        <div class="menu-section-header">
+          <h2 class="section-h2">Menu Offerings</h2>
+          <span class="veg-indicator-legend">
+            <span class="veg-symbol"></span> 100% Pure Vegetarian
+          </span>
+        </div>
+
+        <!-- Pure CSS Tabs linked to radio inputs via for="" -->
+        <div class="tabs-group" role="tablist" aria-label="Menu Categories">
+          <label for="cat-all" class="tab-btn" role="tab">All Items (14)</label>
+          <label for="cat-rice" class="tab-btn" role="tab">Rice & Staples</label>
+          <label for="cat-dal" class="tab-btn" role="tab">Dal & Gravies</label>
+          <label for="cat-sides" class="tab-btn" role="tab">Sides & Extras</label>
+          <label for="cat-dessert" class="tab-btn" role="tab">Dessert</label>
+        </div>
+      </div>
+
+      <!-- Food Menu Grid Items -->
+      <ul class="menu-grid" aria-label="Lunch Menu Items">
+
+        <!-- Item 01 -->
+        <li class="menu-card-item cat-rice">
+          <div class="item-left">
+            <div class="item-number">01</div>
+            <div class="item-details">
+              <span class="item-title">Plain Rice</span>
+              <span class="item-category-tag">Rice & Staples</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+        <!-- Item 02 -->
+        <li class="menu-card-item cat-rice">
+          <div class="item-left">
+            <div class="item-number">02</div>
+            <div class="item-details">
+              <span class="item-title">Jeera Rice</span>
+              <span class="item-category-tag">Flavored Rice</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+        <!-- Item 03 -->
+        <li class="menu-card-item cat-rice">
+          <div class="item-left">
+            <div class="item-number">03</div>
+            <div class="item-details">
+              <span class="item-title">Local Rice Dish</span>
+              <span class="item-category-tag">Regional Special</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+        <!-- Item 04 -->
+        <li class="menu-card-item cat-dal">
+          <div class="item-left">
+            <div class="item-number">04</div>
+            <div class="item-details">
+              <span class="item-title">Dal Fry</span>
+              <span class="item-category-tag">Dal & Gravies</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+        <!-- Item 05 -->
+        <li class="menu-card-item cat-dal">
+          <div class="item-left">
+            <div class="item-number">05</div>
+            <div class="item-details">
+              <span class="item-title">Sambar</span>
+              <span class="item-category-tag">South Indian Special</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+        <!-- Item 06 -->
+        <li class="menu-card-item cat-dal">
+          <div class="item-left">
+            <div class="item-number">06</div>
+            <div class="item-details">
+              <span class="item-title">Rasam</span>
+              <span class="item-category-tag">Soup & Gravy</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+        <!-- Item 07 -->
+        <li class="menu-card-item cat-dal">
+          <div class="item-left">
+            <div class="item-number">07</div>
+            <div class="item-details">
+              <span class="item-title">Local Dal Dish</span>
+              <span class="item-category-tag">Regional Special</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+        <!-- Item 08 -->
+        <li class="menu-card-item cat-rice">
+          <div class="item-left">
+            <div class="item-number">08</div>
+            <div class="item-details">
+              <span class="item-title">Chapati</span>
+              <span class="item-category-tag">Indian Bread</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+        <!-- Item 09 -->
+        <li class="menu-card-item cat-sides">
+          <div class="item-left">
+            <div class="item-number">09</div>
+            <div class="item-details">
+              <span class="item-title">Two Vegetable Dishes</span>
+              <span class="item-category-tag">Side Dishes / Sabzi</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+        <!-- Item 10 -->
+        <li class="menu-card-item cat-sides">
+          <div class="item-left">
+            <div class="item-number">10</div>
+            <div class="item-details">
+              <span class="item-title">Plain Curd / Raita</span>
+              <span class="item-category-tag">Dairy & Accompaniment</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+        <!-- Item 11 -->
+        <li class="menu-card-item cat-sides">
+          <div class="item-left">
+            <div class="item-number">11</div>
+            <div class="item-details">
+              <span class="item-title">Fresh Salad</span>
+              <span class="item-category-tag">Fresh Sides</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+        <!-- Item 12 -->
+        <li class="menu-card-item cat-sides">
+          <div class="item-left">
+            <div class="item-number">12</div>
+            <div class="item-details">
+              <span class="item-title">Crispy Papad</span>
+              <span class="item-category-tag">Crunchy Accompaniment</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+        <!-- Item 13 -->
+        <li class="menu-card-item cat-sides">
+          <div class="item-left">
+            <div class="item-number">13</div>
+            <div class="item-details">
+              <span class="item-title">Assorted Pickle</span>
+              <span class="item-category-tag">Condiment</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+        <!-- Item 14 -->
+        <li class="menu-card-item cat-dessert">
+          <div class="item-left">
+            <div class="item-number">14</div>
+            <div class="item-details">
+              <span class="item-title">Special Dessert</span>
+              <span class="item-category-tag">Sweet Dish</span>
+            </div>
+          </div>
+          <div class="item-right">
+            <span class="veg-symbol" title="Vegetarian"></span>
+          </div>
+        </li>
+
+      </ul>
+
+      <!-- Notice & Instruction Cards Grid -->
+      <div class="bottom-grid">
+        
+        <div class="notice-box highlight">
+          <div class="notice-header">
+            <svg class="notice-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="16" x2="12" y2="12"></line>
+              <line x1="12" y1="8" x2="12.01" y2="8"></line>
+            </svg>
+            <span class="notice-title">Lunch Token Notice</span>
+          </div>
+          <p class="notice-body">
+            Please present your official event <strong>Lunch Token</strong> at the food counter before serving. 
+            Keep your token handy upon entry to MPH Hall.
+          </p>
+        </div>
+
+        <div class="notice-box">
+          <div class="notice-header">
+            <svg class="notice-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+            </svg>
+            <span class="notice-title">Menu Note</span>
+          </div>
+          <p class="notice-body">
+            The coordinating college committee may adjust specific dishes based on local seasonal availability 
+            and regional preferences.
+          </p>
+        </div>
+
+      </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-brand">IDEATION 2026 &bull; BMS College of Engineering</div>
+      <p>Department of Computer Applications in Association with IIT Bombay</p>
+      
+      <button class="print-btn" onclick="window.print()">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="6 9 6 2 18 2 18 9"></polyline>
+          <path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path>
+          <rect x="6" y="14" width="12" height="8"></rect>
+        </svg>
+        Print / Save Menu PDF
+      </button>
+    </footer>
+
+  </div>
+
+</body>
+</html>
